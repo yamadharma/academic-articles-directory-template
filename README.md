@@ -1,28 +1,5 @@
-# Название статьи
+# Создать репозиторий из шаблона
 
-## Каталоги
-
-### articles
-
-Статьи.
-
-### cite
-
-Ссылки на используемые источники.
-
-### code
-
-Код для статей.
-
-### conference
-
-Тезисы и доклады на конференциях.
-
-### pdf
-
-Итоговые pdf-файлы.
-
-### seminars
-
-Семинары.
-
+``` shell
+gh repo create <project-name> --private --template yamadharma/academic-articles-directory-template
+```
